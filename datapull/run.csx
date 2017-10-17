@@ -1,7 +1,7 @@
 #r "VSTSETL.dll"
 
 using System;
-
+using VSTSSolutionTemplateAPI;
 
 public static void Run(TimerInfo myTimer, TraceWriter log)
 {

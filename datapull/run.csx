@@ -1,4 +1,4 @@
-#r "VSTSETL"
+#r "VSTSETL.dll"
 
 using System;
 

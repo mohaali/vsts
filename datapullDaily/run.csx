@@ -10,7 +10,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
     string _PersonalAccessToken = System.Configuration.ConfigurationManager.ConnectionStrings["PATok"].ConnectionString;
     string _AzureSQLConnection = System.Configuration.ConfigurationManager.ConnectionStrings["AzSQLDB"].ConnectionString;
 
-	DateTime StDate = DateTime.Today.AddDays(-2);
+	DateTime StDate = DateTime.Today.AddDays(-7);
 
 	string projTimeFrame = "current";
 
